@@ -1,7 +1,6 @@
 (ns core.nlp-test
-  (:require [clojure.test :refer :all]
-            [core.nlp :refer :all]))
+  (:require [core.nlp :refer :all])
+  (:use midje.sweet))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(facts "FIXME, I fail."
+       (+ 0 0) => 1)
