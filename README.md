@@ -42,7 +42,7 @@ For `core.nlp` documentation and further examples see the Wiki:
 
 `core.nlp` is currently under heavy development, so use it at your own risks!
 
-[![Build Status](https://travis-ci.org/arnaudsj/core.matrix.png?branch=master)](https://travis-ci.org/arnaudsj/core.nlp)
+[![Build Status](https://travis-ci.org/arnaudsj/core.nlp.svg)](https://travis-ci.org/arnaudsj/core.nlp)
 
 ### Contributing
 
