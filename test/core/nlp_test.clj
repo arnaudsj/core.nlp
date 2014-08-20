@@ -3,4 +3,5 @@
   (:use midje.sweet))
 
 (facts "FIXME, I fail."
-       (+ 0 0) => 1)
+       (tokenize  ["Mary had a little lamb"])
+       => ["mary" "had" "a" "little" "lamb"])
