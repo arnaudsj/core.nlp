@@ -6,6 +6,6 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [criterium "0.4.3"]]
   :plugins [[lein-marginalia "0.7.1"]]
-  :profiles {:dev {:dependencies [[midje "1.6.3"]
-                                  [lein-midje "3.1.1"]]}}
-)
+  :profiles {:dev {:dependencies [[midje "1.6.0"
+                                   :exclusions [org.clojure/clojure]]]
+                   :plugins [[lein-midje "3.1.3"]]}})
