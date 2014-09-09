@@ -38,3 +38,11 @@
   "Tokenizes a sentence"
   [s]
   (nlpp/tokenize s))
+
+
+
+(defn set-current-implementation
+  "Sets the currently active core.nlp implementation."
+  ([m]
+    (alter-var-root (var imp/*nlp-implementation*)
+                    (fn [_] (imp/get-implementation-key m)))))

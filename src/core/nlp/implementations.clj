@@ -13,7 +13,7 @@
 (def KNOWN-IMPLEMENTATIONS
   (array-map
    :pure-nlp 'core.nlp.impl.pure-nlp
-   :stanford-corenlp :TODO
+   :stanford-corenlp 'core.nlp.impl.stanford-corenlp
    :clean-nlp :TODO
    :gate :TODO))
 
@@ -69,5 +69,3 @@
            (when-not (keyword? m) m)
            (error "Unable to find implementation: [" k "]"))
         nil))))
-
-
