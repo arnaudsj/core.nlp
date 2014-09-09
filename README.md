@@ -1,10 +1,10 @@
 core.nlp
 ========
 
-core.nlp provides nlp processing as a language extension for Clojure
+core.nlp provides natural language processing as a language extension for Clojure
 
 The central objective of `core.nlp` is to make natural language processing
-idiomatic, productive, elegant and fast in the Clojure environment.
+idiomatic, productive, elegant and fast within the Clojure environment.
 
 ```clojure
 (tokenize "a quick fox jumps")
@@ -17,7 +17,7 @@ Key goals of `core.nlp`:
 
  - Provide a clear, standard API / abstraction for **NLP processing and analysis** in Clojure
  - Enable **pluggable** support for different underlying NLP library implementations
- - Provide a general purpose pure clojure implementation (CljNLP)
+ - Provide a general purpose pure clojure implementation (pure-nlp)
  - Provide a **foundation** library for other projects
  - Enable **high performance** and *scalable* NLP processing
  - Work with **big data** platforms such as Apache Spark, Storm or Hadoop
@@ -28,39 +28,44 @@ To use `core.nlp`, you can get the latest released version from Clojars:
 
  - https://clojars.org/me.arnaudsj/core.nlp
 
-For code examples see:
-
- - https://github.com/arnaudsj/core.nlp/TODO
+[![Clojars Project](http://clojars.org/me.arnaudsj/core.nlp/latest-version.svg)](http://clojars.org/me.arnaudsj/core.nlp)
 
 ### Documentation
 
-For `core.nlp` documentation and further examples see the Wiki:
+For `core.nlp` documentation and further examples see:
 
- - https://github.com/arnaudsj/core.nlp/wiki
+ - http://arnaudsj.github.io/core.nlp
 
 ### Status
 
-`core.nlp` is currently under heavy development, so use it at your own risks!
+`core.nlp` is currently under heavy development and only in its infancy, so use it at your own risks!
 
 [![Build Status](https://travis-ci.org/arnaudsj/core.nlp.svg)](https://travis-ci.org/arnaudsj/core.nlp)
 
 ### Contributing
 
-All contributions / ideas welcome!
+All contributions and ideas are welcome!
 
-There are a number of proposed enhancements listed as GitHub issues: these are a good place to start if you wish to contribute
-to core.nlp:
+Bug, feature and enhancement request should be listed here:
 
  - https://github.com/arnaudsj/core.nlp/issues?state=open
 
-Discussions related to core.nlp generally take place on the "NLP Clojure" group:
+For a more agile like view of the work of our team, please check out the Huboard:
 
- - https://groups.google.com/forum/?fromgroups#!forum/nlp-clojure
+ - https://huboard.com/arnaudsj/core.nlp
 
-If you are interested in writing a `core.nlp` implementation, see:
+Discussions related to core.nlp generally take place on the "core.nlp" group:
 
- - https://github.com/arnaudsj/core.nlp/wiki/Implementation-Guide
+ - https://groups.google.com/forum/?fromgroups#!forum/core-nlp
 
-You can also find a protocol implementation summary here:
+Or alternatively on the IRC Channel #core.nlp on irc.freenode.org
 
- - http://arnaudsj.github.io/core.nlp/summary.htm
+### License
+
+This library made open-source by Opinionlab
+
+Copyright (C) 2014 Opinionlab
+
+Distributed under the Eclipse Public License, the same as Clojure.
+
+
