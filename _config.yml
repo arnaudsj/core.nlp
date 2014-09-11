@@ -1,0 +1,5 @@
+permalink: /:title
+safe: false
+lsi: false
+highlighter: pygments
+baseurl: /core.nlp
