@@ -10,12 +10,11 @@ core.nlp provides natural language processing as a language extension for Clojur
 The central objective of `core.nlp` is to make natural language processing
 idiomatic, productive, elegant and fast within the Clojure environment.
 
-```clojure
+{% highlight clojure %}
 (tokenize "a quick fox jumps")
 
 => ["a" "quick" "fox" "jumps"]
-
-```
+{% endhighlight %}
 
 Key goals of `core.nlp`:
 
@@ -30,15 +29,13 @@ Key goals of `core.nlp`:
 
 To use `core.nlp`, you can get the latest released version from Clojars:
 
- - https://clojars.org/me.arnaudsj/core.nlp
-
-[![Clojars Project](http://clojars.org/me.arnaudsj/core.nlp/latest-version.svg)](http://clojars.org/me.arnaudsj/core.nlp)
+ - [https://clojars.org/me.arnaudsj/core.nlp](https://clojars.org/me.arnaudsj/core.nlp)
 
 ### Documentation
 
 For `core.nlp` documentation and further examples see:
 
- - http://arnaudsj.github.io/core.nlp
+ - [https://arnaudsj.github.io/core.nlp](https://arnaudsj.github.io/core.nlp)
 
 ### Status
 
@@ -52,22 +49,22 @@ All contributions and ideas are welcome!
 
 Bug, feature and enhancement request should be listed here:
 
- - https://github.com/arnaudsj/core.nlp/issues?state=open
+ - [https://github.com/arnaudsj/core.nlp/issues?state=open](https://github.com/arnaudsj/core.nlp/issues?state=open)
 
 For a more agile like view of the work of our team, please check out the Huboard:
 
- - https://huboard.com/arnaudsj/core.nlp
+ - [https://huboard.com/arnaudsj/core.nlp](https://huboard.com/arnaudsj/core.nlp)
 
 Discussions related to core.nlp generally take place on the "core.nlp" group:
 
- - https://groups.google.com/forum/?fromgroups#!forum/core-nlp
+ - [https://groups.google.com/forum/?fromgroups#!forum/core-nlp](https://groups.google.com/forum/?fromgroups#!forum/core-nlp)
 
 Or alternatively on the IRC Channel #core.nlp on irc.freenode.org
 
 ### License
 
-This library made open-source by Opinionlab
+This library made open-source by [Opinionlab, Inc.](http://www.opinionlab.com/)
 
-Copyright (C) 2014 Opinionlab
+Copyright (C) 2014 [Opinionlab, Inc.](http://www.opinionlab.com/)
 
 Distributed under the Eclipse Public License, the same as Clojure.
