@@ -1,5 +1,6 @@
 core.nlp
 ========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/arnaudsj/core.nlp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 core.nlp provides natural language processing as a language extension for Clojure
 
