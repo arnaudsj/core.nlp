@@ -61,7 +61,7 @@ Discussions related to core.nlp generally take place on the "core.nlp" group:
 
 Or alternatively on the IRC Channel #core.nlp on irc.freenode.org
 
-
+<img align="right" src="http://www.yourkit.com/images/yklogo.png" title="YourKit">
 ### Thanks YourKit!
 
 YourKit supports open source projects with its full-featured Java Profiler.
